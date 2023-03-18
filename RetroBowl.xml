@@ -76,6 +76,7 @@
     </head>
 
     <body>
+	<img src="https://cdn.jsdelivr.net/gh/TheEpicCreator/totallyNotRetroBowl/splash.png" id="GM4HTML5_loadingscreen" alt="GameMaker:HTML5 loading screen" style="display:none;"/>
         <div class="gm4html5_div_class" id="gm4html5_div_id">
             <!-- Create the canvas element the game draws to -->
             <canvas id="canvas" width="960" height="540" >
@@ -84,6 +85,7 @@
         </div>
 
         <!-- Run the game code -->
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/TheEpicCreator/totallyNotRetroBowl/poki-sdk.js"></script>
         <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/TheEpicCreator/totallyNotRetroBowl/RetroBowl.js"></script>
         <script>window.onload = GameMaker_Init;</script>
     </body>
