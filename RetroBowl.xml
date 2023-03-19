@@ -16,11 +16,11 @@
         <!-- Set the background colour of the document -->
         <style>
             body {
+	      background-color: #0;
               color:#cccccc;
               margin: 0px;
               padding: 0px;
               border: 0px;
-			  background-color: #000000;
             }
             canvas {
                       image-rendering: optimizeSpeed;
@@ -39,8 +39,6 @@
               margin: 0px;
               padding: 0px;
               border: 0px;
-			  width: 960px;
-			  height: 650px;
             }
             /* START - Login Dialog Box */
             div.gm4html5_login
@@ -81,8 +79,8 @@
             </canvas>
         </div>
         <!-- Run the game code -->
-	<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/TheEpicCreator/totallyNotRetroBowl@latest/poki-sdk.js"></script>
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/TheEpicCreator/totallyNotRetroBowl@latest/RetroBowl.js"></script>
+	/*<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/TheEpicCreator/totallyNotRetroBowl@latest/poki-sdk.js"></script>*/
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/TheEpicCreator/totallyNotRetroBowl@latest/RetroBowl1.js"></script>
         <script>window.onload = GameMaker_Init;</script>
     </body>
 </html> ]]>
