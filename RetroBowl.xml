@@ -16,7 +16,7 @@
         <!-- Set the background colour of the document -->
         <style>
             body {
-	      background-color: #0;
+	      background: #0;
               color:#cccccc;
               margin: 0px;
               padding: 0px;
